@@ -243,7 +243,7 @@ export default Vue.extend({
     text-align center
     margin 0 0 50px
     font-weight normal
-    color #41B883
+    color lighten(#35495E, 10%)
     img
       width 45px
       height 45px
@@ -282,6 +282,14 @@ export default Vue.extend({
       figure
         order 1
   @media all and (max-width: 800px)
+    figure 
+      blockquote
+        padding 10px
+        font-size 14px
+    header 
+      p 
+        small
+          font-size 13px
     .list
       .list-item.third
         width 100%
@@ -296,6 +304,7 @@ export default Vue.extend({
         height 30px
         margin-right 8px
     h2
+      margin 30px 0
       font-size 22px
     h3
       font-size 18px
@@ -305,6 +314,7 @@ export default Vue.extend({
       margin-bottom 10px
     .block 
       img 
+        margin 20px 0
         max-width 100%
         height auto
         display block

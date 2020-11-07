@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Nesta palestra, trataremos sobre as vantagens de trabalha com dois mundos que hoje são antagônicos, mas podem ser úteis em conjunto.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
